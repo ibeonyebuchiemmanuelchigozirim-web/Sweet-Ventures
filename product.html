@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Sweet Ventures</title>
+    <link rel="stylesheet" href="st.css">
+    <link rel="stylesheet" href="fontawesome-free-7.1.0-web/css/all.min.css">
+    <script src="ap.js" defer type="module"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="bottom-nav">
+            <div class="logo">Sweet Ventures</div>
+        </div>
+
+        <div class="nav-bar">
+
+            <div class="nav-items">
+                <a href="in.html" class="nav-link">Home</a>
+                <a href="product.html" class="nav-link active">Products</a>            
+            </div>
+
+        </div>
+
+        <button class="cart-icon">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="cart-badge js-cart-quantity" id="cartBadge">0</span>
+        </button>
+
+        <button class="hamburger" id="hamburger-icon">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </div>
+
+    <div class="category-filter">
+        <select name="" id="categorySelect" class="js-category-select">
+            <option value="all">All</option>
+            <option value="clothes">Clothes</option>
+            <option value="shoes">Shoes</option>
+            <option value="accessories">Accessories</option>
+        </select>
+    </div>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Shopping Cart</h2>
+                <button class="close-modal" id="closeModal">&times;</button>
+            </div>
+
+            <div class="modal-body js-modal-body">
+
+            </div>
+
+            <div class="total-cost">
+                <h2>Total:</h2>
+                <div class="cost js-total-cost">₦0</div>
+            </div>
+
+            <div class="modal-footer">
+                <button class="whatsapp-order">
+                    Order on whatsapp <i class="fa-brands fa-whatsapp"></i>
+                </button>
+                <button class="continue-shopping" id="continueBtn">
+                    Continue Shopping
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="products">
+        <div style="padding: 30px 15px; text-align: center;">
+            <h2 style="font-size: 2em; color: #333; margin-bottom: 10px;">All Products</h2>
+            <p style="color: #666; margin-bottom: 30px;">Discover our latest collection of trendy, high-quality clothing
+            </p>
+        </div>
+
+        <div class="products-grid js-products-grid">
+            
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Sweet Ventures</h3>
+                    <p>Your destination for affordable, trendy, and high-quality clothing that makes you stand out.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Quick links</h3>
+
+                    <ul>
+                        <li><a href="">Shop</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>WhatsApp: <a href="https://wa.me/2349123811567">+234 9123811567</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Sweet Ventures. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
