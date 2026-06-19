@@ -358,7 +358,7 @@ document.querySelector('.whatsapp-order').addEventListener('click', () => {
     const total = calculateCartTotal()
     message += `\n\nTotal: ₦${total.toLocaleString()}`
 
-    const whatsappNumber = "+2349123811567"
+    const whatsappNumber = "+2347036272100"
 
     const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`
 
