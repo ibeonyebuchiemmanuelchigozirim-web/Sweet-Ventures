@@ -100,7 +100,7 @@
     padding: 100px 20px;
     text-align: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url("pictures/IMG-20251015-WA0074.jpg");
+        url("pictures/IMG-20260617-WA0039.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -535,8 +535,7 @@
 }
 
 .js-category-select option:checked {
-    background: linear-gradient(orange, orange);
-    background-color: orange;
+    background: orange;
     color: white;
 }
 

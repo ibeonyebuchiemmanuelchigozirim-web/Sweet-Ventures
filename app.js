@@ -2,117 +2,150 @@ import { cart, addToCart, updateQuantity, removeFromCart } from '/cart.js'
 
 const featuredProducts = [
     {
-        image: 'pictures/IMG-20251015-WA0038.jpg',
-        name: 'Beautiful denim shorts',
-        price: 5000,
+        image: 'pictures/IMG-20260617-WA0036.jpg',
+        name: 'Male vintage shirts and trouser',
+        price: 22000,
         id: 1,
-        category: 'shoes'
+        category: 'clothes'
     },
 
     {
-        image: 'pictures/IMG-20251015-WA0038.jpg',
-        name: 'Beautiful denim shorts',
-        price: 5000,
+        image: 'pictures/IMG-20260617-WA0037.jpg',
+        name: 'Male vintage shirts and trouser',
+        price: 22000,
         id: 1,
         category: 'clothes'
     },
 
 
     {
-        image: 'pictures/IMG-20251015-WA0070.jpg',
-        name: 'Beautiful  shorts that shot the shot',
-        price: 5000,
+        image: 'pictures/IMG-20260617-WA0038.jpg',
+        name: 'Male vintage shirts and trouser',
+        price: 22000,
         id: 2,
-        category: 'accessories'
+        category: 'clothes'
     },
 
     {
-        image: 'pictures/IMG-20251018-WA0036.jpg',
-        name: 'Short sleeve shirts',
-        price: 5000,
+        image: 'pictures/IMG-20260617-WA0039.jpg',
+        name: 'Male vintage shirts and trouser',
+        price: 22000,
         id: 3,
-        category: 'shoes'
+        category: 'clothes'
     },
 
     {
-        image: 'pictures/IMG-20251015-WA0038.jpg',
-        name: 'Beautiful denim sleve',
-        price: 5000,
+        image: 'pictures/IMG-20260617-WA0041.jpg',
+        name: 'Male vintage shirts and trouser',
+        price: 22000,
         id: 4,
         category: 'clothes'
     },
 
     {
-        image: 'pictures/IMG-20251015-WA0038.jpg',
-        name: 'Beautiful denim bro',
-        price: 5000,
+        image: 'pictures/IMG-20260617-WA0042.jpg',
+        name: 'vintage crop shirts for ladies',
+        price: 8000,
         id: 5,
-        category: 'accessories'
+        category: 'clothes'
     }
 ]
 
 const allProducts = [
     {
-        image: 'pictures/IMG-20251018-WA0036.jpg',
-        name: 'Beautiful denim bro',
-        price: 5000,
+        image: 'pictures/IMG-20260617-WA0043.jpg',
+        name: 'vintage crop shirts for ladies',
+        price: 8000,
         id: 5,
-        category: 'shoes'
+        category: 'clothes'
     },
 
     {
-        image: 'pictures/IMG-20251015-WA0038.jpg',
-        name: 'Damin',
-        price: 6000,
+        image: 'pictures/IMG-20260617-WA0058.jpg',
+        name: 'Male vintage shirts',
+        price: 9500,
         id: 6,
         category: 'clothes'
     },
 
     {
-        image: 'pictures/IMG-20251015-WA0038.jpg',
-        name: 'Damin',
-        price: 6000,
+        image: 'pictures/IMG-20260617-WA0059.jpg',
+        name: 'Vintage shirts',
+        price: 9500,
         id: 7,
-        category: 'accessories'
+        category: 'clothes'
     },
 
     {
-        image: 'pictures/IMG-20251015-WA0038.jpg',
-        name: 'Damin',
-        price: 6000,
+        image: 'pictures/IMG-20260617-WA0060.jpg',
+        name: 'Vintage shirts',
+        price: 9500,
         id: 8,
-        category: 'shoes'
+        category: 'clothes'
     },
 
     {
-        image: 'pictures/IMG-20251015-WA0038.jpg',
-        name: 'Damin',
-        price: 6000,
+        image: 'pictures/IMG-20260617-WA0061.jpg',
+        name: 'Male vintage shirts',
+        price: 9500,
         id: 9,
         category: 'clothes'
     },
 
     {
-        image: 'pictures/IMG-20251015-WA0038.jpg',
-        name: 'Damin',
-        price: 6000,
+        image: 'pictures/IMG-20260619-WA0042.jpg',
+        name: 'Male vintage shirts',
+        price: 9500,
         id: 10,
-        category: 'accessories'
+        category: 'clothes'
     },
 
-    {
-        image: 'pictures/IMG-20251015-WA0038.jpg',
-        name: 'Damin',
-        price: 6000,
+        {
+        image: 'pictures/IMG-20260617-WA0036.jpg',
+        name: 'Male vintage shirts and trouser',
+        price: 22000,
         id: 11,
-        category: 'shoes'
+        category: 'clothes'
     },
 
     {
-        image: 'pictures/IMG-20251015-WA0038.jpg',
-        name: 'Damin',
-        price: 6000,
+        image: 'pictures/IMG-20260617-WA0037.jpg',
+        name: 'Male vintage shirts and trouser',
+        price: 22000,
         id: 12,
+        category: 'clothes'
+    },
+
+
+    {
+        image: 'pictures/IMG-20260617-WA0038.jpg',
+        name: 'Male vintage shirts and trouser',
+        price: 22000,
+        id: 13,
+        category: 'clothes'
+    },
+
+    {
+        image: 'pictures/IMG-20260617-WA0039.jpg',
+        name: 'Male vintage shirts and trouser',
+        price: 22000,
+        id: 14,
+        category: 'clothes'
+    },
+
+    {
+        image: 'pictures/IMG-20260617-WA0041.jpg',
+        name: 'Male vintage shirts and trouser',
+        price: 22000,
+        id: 15,
+        category: 'clothes'
+    },
+
+    {
+        image: 'pictures/IMG-20260617-WA0042.jpg',
+        name: 'vintage crop shirts for ladies',
+        price: 8000,
+        id: 16,
         category: 'clothes'
     }
 ]
