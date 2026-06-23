@@ -13,7 +13,7 @@ const featuredProducts = [
         image: 'pictures/IMG-20260617-WA0037.jpg',
         name: 'Male vintage shirts and trouser',
         price: 22000,
-        id: 1,
+        id: 2,
         category: 'clothes'
     },
 
@@ -22,7 +22,7 @@ const featuredProducts = [
         image: 'pictures/IMG-20260617-WA0038.jpg',
         name: 'Male vintage shirts and trouser',
         price: 22000,
-        id: 2,
+        id: 3,
         category: 'clothes'
     },
 
@@ -30,7 +30,7 @@ const featuredProducts = [
         image: 'pictures/IMG-20260617-WA0039.jpg',
         name: 'Male vintage shirts and trouser',
         price: 22000,
-        id: 3,
+        id: 4,
         category: 'clothes'
     },
 
@@ -38,7 +38,7 @@ const featuredProducts = [
         image: 'pictures/IMG-20260617-WA0041.jpg',
         name: 'Male vintage shirts and trouser',
         price: 22000,
-        id: 4,
+        id: 5,
         category: 'clothes'
     },
 
@@ -46,7 +46,7 @@ const featuredProducts = [
         image: 'pictures/IMG-20260617-WA0042.jpg',
         name: 'vintage crop shirts for ladies',
         price: 8000,
-        id: 5,
+        id: 6,
         category: 'clothes'
     }
 ]
@@ -56,7 +56,7 @@ const allProducts = [
         image: 'pictures/IMG-20260617-WA0043.jpg',
         name: 'vintage crop shirts for ladies',
         price: 8000,
-        id: 5,
+        id: 7,
         category: 'clothes'
     },
 
@@ -64,7 +64,7 @@ const allProducts = [
         image: 'pictures/IMG-20260617-WA0058.jpg',
         name: 'Male vintage shirts',
         price: 9500,
-        id: 6,
+        id: 8,
         category: 'clothes'
     },
 
@@ -72,7 +72,7 @@ const allProducts = [
         image: 'pictures/IMG-20260617-WA0059.jpg',
         name: 'Vintage shirts',
         price: 9500,
-        id: 7,
+        id: 9,
         category: 'clothes'
     },
 
@@ -80,7 +80,7 @@ const allProducts = [
         image: 'pictures/IMG-20260617-WA0060.jpg',
         name: 'Vintage shirts',
         price: 9500,
-        id: 8,
+        id: 10,
         category: 'clothes'
     },
 
@@ -88,7 +88,7 @@ const allProducts = [
         image: 'pictures/IMG-20260617-WA0061.jpg',
         name: 'Male vintage shirts',
         price: 9500,
-        id: 9,
+        id: 11,
         category: 'clothes'
     },
 
@@ -96,7 +96,7 @@ const allProducts = [
         image: 'pictures/IMG-20260619-WA0042.jpg',
         name: 'Male vintage shirts',
         price: 9500,
-        id: 10,
+        id: 12,
         category: 'clothes'
     },
 
@@ -104,7 +104,7 @@ const allProducts = [
         image: 'pictures/IMG-20260617-WA0036.jpg',
         name: 'Male vintage shirts and trouser',
         price: 22000,
-        id: 11,
+        id: 13,
         category: 'clothes'
     },
 
@@ -112,7 +112,7 @@ const allProducts = [
         image: 'pictures/IMG-20260617-WA0037.jpg',
         name: 'Male vintage shirts and trouser',
         price: 22000,
-        id: 12,
+        id: 14,
         category: 'clothes'
     },
 
@@ -121,7 +121,7 @@ const allProducts = [
         image: 'pictures/IMG-20260617-WA0038.jpg',
         name: 'Male vintage shirts and trouser',
         price: 22000,
-        id: 13,
+        id: 15,
         category: 'clothes'
     },
 
@@ -129,7 +129,7 @@ const allProducts = [
         image: 'pictures/IMG-20260617-WA0039.jpg',
         name: 'Male vintage shirts and trouser',
         price: 22000,
-        id: 14,
+        id: 16,
         category: 'clothes'
     },
 
@@ -137,7 +137,7 @@ const allProducts = [
         image: 'pictures/IMG-20260617-WA0041.jpg',
         name: 'Male vintage shirts and trouser',
         price: 22000,
-        id: 15,
+        id: 17,
         category: 'clothes'
     },
 
@@ -145,7 +145,7 @@ const allProducts = [
         image: 'pictures/IMG-20260617-WA0042.jpg',
         name: 'vintage crop shirts for ladies',
         price: 8000,
-        id: 16,
+        id: 18,
         category: 'clothes'
     }
 ]
