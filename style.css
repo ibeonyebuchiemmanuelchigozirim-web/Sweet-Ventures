@@ -5,6 +5,12 @@
     scroll-behavior: smooth;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .container {
     width: 100%;
     position: sticky;
@@ -14,6 +20,7 @@
     background: black;
     padding: 15px 20px;
     align-items: center;
+    justify-content: center;
 }
 
 .bottom-nav {
@@ -23,8 +30,9 @@
 
 .nav-bar {
     display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    flex: 1;
+    justify-content: center;
 }
 
 .logo {
@@ -38,8 +46,9 @@
 .nav-items {
     display: flex;
     gap: 45px;
-    justify-content: center;
-    flex: 1;
+    /* justify-content: center;
+    flex: 1; */
+    align-items: center;
 }
 
 .nav-link {
