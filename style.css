@@ -24,13 +24,11 @@ body {
 }
 
 .bottom-nav {
-    /* align-self: center; */
-    display: flex;
+    align-self: center;
 }
 
 .nav-bar {
     display: flex;
-    /* margin: 0 auto; */
     flex: 1;
     justify-content: center;
 }
@@ -182,7 +180,6 @@ body {
     border-radius: 12px;
     padding: 30px;
     max-height: 90vh;
-
 }
 
 .modal-header {
@@ -594,5 +591,20 @@ body {
     .nav-items.active {
         max-height: 500px;
         visibility: visible;
+    }
+
+    .modal-content {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .modal-body {
+        padding: 5px 0;
+    }
+
+    .logo {
+        font-size: 1.5em;
+        margin-left: 10px;
+        font-weight: 600;
     }
 }
